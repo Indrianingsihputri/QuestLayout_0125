@@ -102,7 +102,7 @@ fun ActivitasPertam(modifier: Modifier) {
                 Column() {
                     Text(
                         stringResource(id = R.string.nama_gib),
-                        fontSize = 30.sp,
+                        fontSize = 25.sp,
                         fontFamily = FontFamily.Serif,
                         color = Color.White,
                         modifier = Modifier.padding(all = 10.dp)
