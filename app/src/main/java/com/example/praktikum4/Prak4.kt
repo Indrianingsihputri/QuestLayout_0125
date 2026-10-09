@@ -18,6 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -56,14 +57,53 @@ fun ActivitasPertam(modifier: Modifier) {
                 Image(
                     painter = gambar,
                     contentDescription = null,
-                    modifier = Modifier.size(100.dp).padding(all = 5.dp)
+                    modifier = Modifier.size(90.dp).padding(all = 5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
                 Column() {
                     Text(
                         stringResource(id = R.string.nama),
-                        fontSize = 30.sp,
+                        fontSize = 25.sp,
                         fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(all = 10.dp)
+                    )
+                    Text(
+                        stringResource(id = R.string.alamat),
+                        fontSize = 18.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(all = 10.dp)
+                    )
+                }
+                Image(
+                    painter = painterResource(id = R.drawable.logo_umy),
+                    contentDescription = null,
+                    modifier = Modifier.size(95.dp).padding(all = 5.dp)
+                )
+            }
+        }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = colorResource(id = R.color.card_1_bg)
+            )
+        ) {
+            Row() {
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(90.dp).padding(all = 5.dp)
+                )
+                Spacer(modifier = Modifier.width(30.dp))
+                Column() {
+                    Text(
+                        stringResource(id = R.string.nama_gib),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Serif,
                         color = Color.White,
                         modifier = Modifier.padding(all = 10.dp)
                     )
