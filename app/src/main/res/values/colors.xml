@@ -9,4 +9,12 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="card_0_bg">#575454</color>
+    <color name="card_1_bg">#7038D0</color>
+    <color name="card_2_bg">#1717F5</color>
+    <color name="card_3_bg">#006400</color>
+
+    <color name="screen_bg">#F8F7FC</color>
+    <color name="text_primary">#25242B</color>
+    <color name="text_card">#FFFFFF</color>
+    <color name="text_address">#FFFF00</color>
 </resources>
