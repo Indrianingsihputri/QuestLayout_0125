@@ -108,6 +108,12 @@ fun ActivitasPertam(modifier: Modifier) {
                         modifier = Modifier.padding(all = 10.dp)
                     )
                     Text(
+                        stringResource(id = R.string.telepon_gibran),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(all = 10.dp)
+                    )
+                    Text(
                         stringResource(id = R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.White,
