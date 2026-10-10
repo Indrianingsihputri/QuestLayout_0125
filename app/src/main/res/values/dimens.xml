@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_top_padding">60dp</dimen>
+    <dimen name="screen_horizontal_padding">16dp</dimen>
+    <dimen name="screen_bottom_padding">12dp</dimen>
+
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="subtitle_size">12sp</dimen>
+    <dimen name="title_bottom_space">20dp</dimen>
+
+    <dimen name="card_height">88dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_horizontal_padding">8dp</dimen>
+    <dimen name="card_logo_size">44dp</dimen>
+    <dimen name="card_text_padding">8dp</dimen>
+    <dimen name="card_name_size">14sp</dimen>
+    <dimen name="card_phone_size">9sp</dimen>
+    <dimen name="card_address_size">9sp</dimen>
+    <dimen name="card_spacing">8dp</dimen>
+
+    <dimen name="copyright_size">9sp</dimen>
+</resources>
