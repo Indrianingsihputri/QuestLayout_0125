@@ -18,7 +18,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -52,7 +51,7 @@ fun ActivitasPertam(modifier: Modifier) {
                 containerColor = colorResource(id = R.color.card_0_bg)
             )
         ) {
-            Row() {
+            Row {
                 val gambar = painterResource(id = R.drawable.logo_umy)
                 Image(
                     painter = gambar,
@@ -191,7 +190,7 @@ fun ActivitasPertam(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(30.dp))
                 Column() {
                     Text(
-                        stringResource(id = R.string.nama_zhil),
+                        stringResource(id = R.string.nama_ahmad),
                         fontSize = 25.sp,
                         fontFamily = FontFamily.Serif,
                         color = Color.White,
