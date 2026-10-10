@@ -143,7 +143,7 @@ fun ActivitasPertam(modifier: Modifier) {
                     modifier = Modifier.size(90.dp).padding(all = 5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
-                Column() {
+                Column {
                     Text(
                         stringResource(id = R.string.nama_zhil),
                         fontSize = 25.sp,
