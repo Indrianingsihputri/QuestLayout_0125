@@ -114,12 +114,17 @@ fun ActivitasPertam(modifier: Modifier) {
                         modifier = Modifier.padding(all = 10.dp)
                     )
                     Text(
-                        stringResource(id = R.string.alamat),
+                        stringResource(id = R.string.alamat_gibran),
                         fontSize = 20.sp,
                         color = Color.White,
                         modifier = Modifier.padding(all = 10.dp)
                     )
                 }
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(95.dp).padding(all = 5.dp)
+                )
             }
         }
         Box(
