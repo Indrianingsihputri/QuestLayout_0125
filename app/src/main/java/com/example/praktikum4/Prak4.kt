@@ -127,6 +127,52 @@ fun ActivitasPertam(modifier: Modifier) {
                 )
             }
         }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = colorResource(id = R.color.card_2_bg)
+            )
+        ) {
+            Row() {
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(90.dp).padding(all = 5.dp)
+                )
+                Spacer(modifier = Modifier.width(30.dp))
+                Column() {
+                    Text(
+                        stringResource(id = R.string.nama_zhil),
+                        fontSize = 25.sp,
+                        fontFamily = FontFamily.Serif,
+                        color = Color.White,
+                        modifier = Modifier.padding(all = 10.dp)
+                    )
+                    Text(
+                        stringResource(id = R.string.telepon_zhilal),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(all = 10.dp)
+                    )
+                    Text(
+                        stringResource(id = R.string.alamat_zhilal),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(all = 10.dp)
+                    )
+                }
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(95.dp).padding(all = 5.dp)
+                )
+            }
+        }
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
